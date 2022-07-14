@@ -55,6 +55,51 @@ let questions = [
       "67"
     ]
   },
+  {
+    numb: 6,
+    question: "Why should I vote?",
+    answer: "Because it's my duty to choose the right leaders.",
+    options: [
+      "Because I have a voters card",
+      "Because it's my duty to choose the right leaders.",
+      "Because its happens every 5 years",
+      "Because I am told to."
+    ]
+  },
+  {
+    numb: 7,
+    question: "Who should I Vote for?",
+    answer: "Most Qualified Candidate",
+    options: [
+      "Most popular candidate",
+      "Most Qualified Candidate",
+      "Most Popular Party",
+      "My tribesman"
+    ]
+  },
+  {
+    numb: 8,
+    question: " If the president dies, who will succeed him?",
+    answer: "Deputy President",
+    options: [
+      "Leader of the Opposition",
+      "Deputy President",
+      "Speaker ",
+      "Attorney General"
+    ]
+  },
+  {
+    numb: 9,
+    question: "How many presidential candidates are contesting in the 2022 general elections?",
+    answer: "Over Forty",
+    options: [
+      "Two Only",
+      "Over Forty",
+      "Three Only",
+      "Less than Ten"
+    ]
+  },
+
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 

@@ -152,11 +152,13 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 3){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>and congrats! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        // let scoreTag = '<span>and congrats! 🎉, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +' which is '+ userScore/questions.length*100 +' <p> % </> </p></span>';
+        let scoreTag = '<span>and congrats! 🎉, You got '+ Math.round(userScore/questions.length*100) +' Percent </p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore > 1){ // if user scored more than 1
-        let scoreTag = '<span>and nice 😎, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        // let scoreTag = '<span>and nice 😎, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +' which is '+ userScore/questions.length*100 +' </p></span>';
+        let scoreTag = '<span>and nice 😎, You got '+ Math.round(userScore/questions.length*100) +' Percent </p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1

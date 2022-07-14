@@ -351,7 +351,7 @@ footer button.show{
 
 .result_box .buttons button{
     margin: 0 10px;
-    height: 45px;
+    height: 65px;
     padding: 0 20px;
     font-size: 18px;
     font-weight: 500;
@@ -378,6 +378,16 @@ footer button.show{
 }
 
 .buttons button.quit:hover{
+    color: #fff;
+    background: #007bff;
+}
+
+.buttons button.share{
+    color: #007bff;
+    background: #fff;
+}
+
+.buttons button.share:hover{
     color: #fff;
     background: #007bff;
 }
@@ -713,7 +723,7 @@ footer button.show{
 
 .result_box .buttons button{
     margin: 0 10px;
-    height: 45px;
+    height: 55px;
     padding: 0 20px;
     font-size: 18px;
     font-weight: 500;
@@ -735,6 +745,15 @@ footer button.show{
 }
 
 .buttons button.quit{
+    color: #007bff;
+    background: #fff;
+}
+
+.buttons button.quit:hover{
+    color: #fff;
+    background: #007bff;
+}
+.buttons button.share{
     color: #007bff;
     background: #fff;
 }
